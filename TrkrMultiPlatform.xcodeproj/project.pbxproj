@@ -13,6 +13,10 @@
 		D7AEFFD5279705730009816A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7AEFFC32797056B0009816A /* ContentView.swift */; };
 		D7AEFFD6279705730009816A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7AEFFC4279705720009816A /* Assets.xcassets */; };
 		D7AEFFD7279705730009816A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7AEFFC4279705720009816A /* Assets.xcassets */; };
+		D7AEFFE4279707150009816A /* tips.json in Resources */ = {isa = PBXBuildFile; fileRef = D7AEFFE2279707150009816A /* tips.json */; };
+		D7AEFFE5279707150009816A /* tips.json in Resources */ = {isa = PBXBuildFile; fileRef = D7AEFFE2279707150009816A /* tips.json */; };
+		D7AEFFE6279707150009816A /* locations.json in Resources */ = {isa = PBXBuildFile; fileRef = D7AEFFE3279707150009816A /* locations.json */; };
+		D7AEFFE7279707150009816A /* locations.json in Resources */ = {isa = PBXBuildFile; fileRef = D7AEFFE3279707150009816A /* locations.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,8 @@
 		D7AEFFC9279705730009816A /* TrkrMultiPlatform.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrkrMultiPlatform.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7AEFFCF279705730009816A /* TrkrMultiPlatform.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrkrMultiPlatform.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7AEFFD1279705730009816A /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		D7AEFFE2279707150009816A /* tips.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tips.json; sourceTree = "<group>"; };
+		D7AEFFE3279707150009816A /* locations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = locations.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +96,8 @@
 		D7AEFFE1279705B60009816A /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				D7AEFFE3279707150009816A /* locations.json */,
+				D7AEFFE2279707150009816A /* tips.json */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -174,6 +182,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D7AEFFD6279705730009816A /* Assets.xcassets in Resources */,
+				D7AEFFE6279707150009816A /* locations.json in Resources */,
+				D7AEFFE4279707150009816A /* tips.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -182,6 +192,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D7AEFFD7279705730009816A /* Assets.xcassets in Resources */,
+				D7AEFFE7279707150009816A /* locations.json in Resources */,
+				D7AEFFE5279707150009816A /* tips.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
