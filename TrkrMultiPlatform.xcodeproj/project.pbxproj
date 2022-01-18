@@ -55,7 +55,8 @@
 			isa = PBXGroup;
 			children = (
 				D7AEFFC22797056B0009816A /* TrkrMultiPlatformApp.swift */,
-				D7AEFFC32797056B0009816A /* ContentView.swift */,
+				D7AEFFE1279705B60009816A /* Model */,
+				D7AEFFE0279705A30009816A /* Views */,
 				D7AEFFC4279705720009816A /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -76,6 +77,21 @@
 				D7AEFFD1279705730009816A /* macOS.entitlements */,
 			);
 			path = macOS;
+			sourceTree = "<group>";
+		};
+		D7AEFFE0279705A30009816A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D7AEFFC32797056B0009816A /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D7AEFFE1279705B60009816A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
