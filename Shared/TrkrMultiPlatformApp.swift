@@ -9,10 +9,13 @@ import SwiftUI
 
 @main
 struct TrkrMultiPlatformApp: App {
+    
+    @StateObject var store = LocationStore()
+    
     var body: some Scene {
         WindowGroup {
             NavigationView {
-            LocationDetail(location: Location.example)
+                LocationList(store: store)
             }
             }
     }

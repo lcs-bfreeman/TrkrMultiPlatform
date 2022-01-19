@@ -19,6 +19,10 @@
 		D7AEFFEA279707E80009816A /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7AEFFE8279707E80009816A /* Location.swift */; };
 		D7AEFFF027970B610009816A /* LocationDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7AEFFEF27970B610009816A /* LocationDetail.swift */; };
 		D7AEFFF127970B610009816A /* LocationDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7AEFFEF27970B610009816A /* LocationDetail.swift */; };
+		D7AEFFF327985C890009816A /* LocationStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7AEFFF227985C880009816A /* LocationStore.swift */; };
+		D7AEFFF427985C8A0009816A /* LocationStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7AEFFF227985C880009816A /* LocationStore.swift */; };
+		D7AEFFF6279860120009816A /* LocationList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7AEFFF5279860120009816A /* LocationList.swift */; };
+		D7AEFFF7279860120009816A /* LocationList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7AEFFF5279860120009816A /* LocationList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +35,8 @@
 		D7AEFFE3279707150009816A /* locations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = locations.json; sourceTree = "<group>"; };
 		D7AEFFE8279707E80009816A /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		D7AEFFEF27970B610009816A /* LocationDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDetail.swift; sourceTree = "<group>"; };
+		D7AEFFF227985C880009816A /* LocationStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationStore.swift; sourceTree = "<group>"; };
+		D7AEFFF5279860120009816A /* LocationList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				D7AEFFEF27970B610009816A /* LocationDetail.swift */,
+				D7AEFFF5279860120009816A /* LocationList.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -102,6 +109,7 @@
 				D7AEFFE3279707150009816A /* locations.json */,
 				D7AEFFE2279707150009816A /* tips.json */,
 				D7AEFFE8279707E80009816A /* Location.swift */,
+				D7AEFFF227985C880009816A /* LocationStore.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -208,9 +216,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7AEFFF327985C890009816A /* LocationStore.swift in Sources */,
 				D7AEFFE9279707E80009816A /* Location.swift in Sources */,
 				D7AEFFD2279705730009816A /* TrkrMultiPlatformApp.swift in Sources */,
 				D7AEFFF027970B610009816A /* LocationDetail.swift in Sources */,
+				D7AEFFF6279860120009816A /* LocationList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -218,9 +228,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7AEFFF427985C8A0009816A /* LocationStore.swift in Sources */,
 				D7AEFFEA279707E80009816A /* Location.swift in Sources */,
 				D7AEFFD3279705730009816A /* TrkrMultiPlatformApp.swift in Sources */,
 				D7AEFFF127970B610009816A /* LocationDetail.swift in Sources */,
+				D7AEFFF7279860120009816A /* LocationList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
