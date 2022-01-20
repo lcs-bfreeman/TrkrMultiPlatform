@@ -14,9 +14,42 @@ struct TrkrMultiPlatformApp: App {
     
     var body: some Scene {
         WindowGroup {
-            NavigationView {
-                LocationList(store: store)
+            
+            TabView {
+                
+                
+                
+                NavigationView {
+                    LocationList(store: store)
+                }
+                .tabItem {
+                    Image(systemName: "list.bullet")
+                    Text("Locations")
+                }
+                
+                NavigationView {
+                    WorldMap(store: store)
+                }
+                .tabItem {
+                    Image(systemName: "map")
+                    Text("Tips")
+                }
+                
+                NavigationView{
+                    TipsList()
+                }
+                .tabItem{
+                    Image(systemName:  "person.fill.questionmark")
+                    Text("Tips")
+                }
+                
+                
             }
+            
+            
+           
+            
+            
             }
     }
 }
