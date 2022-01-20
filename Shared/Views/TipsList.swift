@@ -8,13 +8,12 @@
 import SwiftUI
 
 struct TipsList: View {
-
-    let tips: [Tip]
     
+    @StateObject var dataStore = TipStore()
     
     var body: some View {
         
-        List(tips, id: \.text, children: \.children) { tip in
+        List(dataStore.tips, id: \.text, children: \.children) { tip in
             
             if tip.children != nil {
                 Label(tip.text, systemImage: "quote.bubble")
@@ -28,15 +27,7 @@ struct TipsList: View {
         
     }
     
-    init() {
-        
-        let url = Bundle.main.url(forResource: "tips", withExtension: "json")!
-        
-        let data = try! Data(contentsOf: url)
-        
-        tips = try! JSONDecoder().decode([Tip].self, from: data)
-        
-    }
+    
     
     
 }

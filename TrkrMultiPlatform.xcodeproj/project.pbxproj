@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		D7AE00002798FAAB0009816A /* Tip.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7AEFFFE2798FAAB0009816A /* Tip.swift */; };
+		D7AE00032799BEC10009816A /* TipStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7AE00022799BEC10009816A /* TipStore.swift */; };
+		D7AE00042799BEC10009816A /* TipStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7AE00022799BEC10009816A /* TipStore.swift */; };
 		D7AEFFD2279705730009816A /* TrkrMultiPlatformApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7AEFFC22797056B0009816A /* TrkrMultiPlatformApp.swift */; };
 		D7AEFFD3279705730009816A /* TrkrMultiPlatformApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7AEFFC22797056B0009816A /* TrkrMultiPlatformApp.swift */; };
 		D7AEFFD6279705730009816A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7AEFFC4279705720009816A /* Assets.xcassets */; };
@@ -32,6 +34,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D7AE00022799BEC10009816A /* TipStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipStore.swift; sourceTree = "<group>"; };
 		D7AEFFC22797056B0009816A /* TrkrMultiPlatformApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrkrMultiPlatformApp.swift; sourceTree = "<group>"; };
 		D7AEFFC4279705720009816A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D7AEFFC9279705730009816A /* TrkrMultiPlatform.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrkrMultiPlatform.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -69,8 +72,8 @@
 		D7AE0001279906F20009816A /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				D7AEFFEF27970B610009816A /* LocationDetail.swift */,
 				D7AEFFF227985C880009816A /* LocationStore.swift */,
+				D7AE00022799BEC10009816A /* TipStore.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -116,6 +119,7 @@
 		D7AEFFE0279705A30009816A /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				D7AEFFEF27970B610009816A /* LocationDetail.swift */,
 				D7AEFFF5279860120009816A /* LocationList.swift */,
 				D7AEFFF8279864FF0009816A /* WorldMap.swift */,
 				D7AEFFFB2798653D0009816A /* TipsList.swift */,
@@ -238,6 +242,7 @@
 			files = (
 				D7AEFFF327985C890009816A /* LocationStore.swift in Sources */,
 				D7AEFFFF2798FAAB0009816A /* Tip.swift in Sources */,
+				D7AE00032799BEC10009816A /* TipStore.swift in Sources */,
 				D7AEFFF9279865000009816A /* WorldMap.swift in Sources */,
 				D7AEFFE9279707E80009816A /* Location.swift in Sources */,
 				D7AEFFFC2798653D0009816A /* TipsList.swift in Sources */,
@@ -253,6 +258,7 @@
 			files = (
 				D7AEFFF427985C8A0009816A /* LocationStore.swift in Sources */,
 				D7AE00002798FAAB0009816A /* Tip.swift in Sources */,
+				D7AE00042799BEC10009816A /* TipStore.swift in Sources */,
 				D7AEFFFA279865000009816A /* WorldMap.swift in Sources */,
 				D7AEFFEA279707E80009816A /* Location.swift in Sources */,
 				D7AEFFFD2798653D0009816A /* TipsList.swift in Sources */,
