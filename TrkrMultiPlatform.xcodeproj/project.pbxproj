@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D7AE00002798FAAB0009816A /* Tip.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7AEFFFE2798FAAB0009816A /* Tip.swift */; };
 		D7AEFFD2279705730009816A /* TrkrMultiPlatformApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7AEFFC22797056B0009816A /* TrkrMultiPlatformApp.swift */; };
 		D7AEFFD3279705730009816A /* TrkrMultiPlatformApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7AEFFC22797056B0009816A /* TrkrMultiPlatformApp.swift */; };
 		D7AEFFD6279705730009816A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7AEFFC4279705720009816A /* Assets.xcassets */; };
@@ -27,6 +28,7 @@
 		D7AEFFFA279865000009816A /* WorldMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7AEFFF8279864FF0009816A /* WorldMap.swift */; };
 		D7AEFFFC2798653D0009816A /* TipsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7AEFFFB2798653D0009816A /* TipsList.swift */; };
 		D7AEFFFD2798653D0009816A /* TipsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7AEFFFB2798653D0009816A /* TipsList.swift */; };
+		D7AEFFFF2798FAAB0009816A /* Tip.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7AEFFFE2798FAAB0009816A /* Tip.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +45,7 @@
 		D7AEFFF5279860120009816A /* LocationList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationList.swift; sourceTree = "<group>"; };
 		D7AEFFF8279864FF0009816A /* WorldMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldMap.swift; sourceTree = "<group>"; };
 		D7AEFFFB2798653D0009816A /* TipsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsList.swift; sourceTree = "<group>"; };
+		D7AEFFFE2798FAAB0009816A /* Tip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tip.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +121,7 @@
 				D7AEFFE2279707150009816A /* tips.json */,
 				D7AEFFE8279707E80009816A /* Location.swift */,
 				D7AEFFF227985C880009816A /* LocationStore.swift */,
+				D7AEFFFE2798FAAB0009816A /* Tip.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -225,6 +229,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D7AEFFF327985C890009816A /* LocationStore.swift in Sources */,
+				D7AEFFFF2798FAAB0009816A /* Tip.swift in Sources */,
 				D7AEFFF9279865000009816A /* WorldMap.swift in Sources */,
 				D7AEFFE9279707E80009816A /* Location.swift in Sources */,
 				D7AEFFFC2798653D0009816A /* TipsList.swift in Sources */,
@@ -239,6 +244,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D7AEFFF427985C8A0009816A /* LocationStore.swift in Sources */,
+				D7AE00002798FAAB0009816A /* Tip.swift in Sources */,
 				D7AEFFFA279865000009816A /* WorldMap.swift in Sources */,
 				D7AEFFEA279707E80009816A /* Location.swift in Sources */,
 				D7AEFFFD2798653D0009816A /* TipsList.swift in Sources */,
